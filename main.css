@@ -1,0 +1,214 @@
+header {
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+
+.title {
+  margin-bottom:75px;
+}
+
+.title img {
+  margin: 30px 0;
+  width: 250px;
+}
+
+.ghost-container {
+  width: 800px;
+  position: fixed;
+  text-align: center;
+  visibility: hidden;
+}
+
+.ghost {
+  z-index: 10;
+  display: block;
+  width: 550px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width:300px;
+}
+
+body {
+  max-width:800px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.code_snippet {
+   background-color: light-grey;
+   display: block;
+   height: auto;
+   width: 100%;
+   margin: 30px 0;
+ }
+
+button {
+  background-color: #9F000F;
+  font-family: Droid Serif, georgia, sans-serif;
+  font-size: 25px;
+  color:white;
+  border-radius:3px;
+  padding:9px 22px;
+  border:0;
+  outline: 0;
+  margin: 0 auto;
+ }
+
+button:hover {
+  cursor: pointer;
+  background-color:#C11B17
+}
+
+button:active {
+  background-color:#8C001A
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  font-family: Droid Serif, georgia, sans-serif;
+  line-height: 1.6em;
+  text-align: left;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  font-family: Droid Serif, georgia, sans-serif;
+  line-height: 1.5;
+  text-shadow: 1px 1px 15px red;
+}
+
+
+.inner h2 {
+  color: orange;
+  font-family: Droid Serif, georgia, sans-serif;
+  font-size: 30px;
+  text-align: left;
+}
+
+h1 {
+  color: orange;
+  font-family: Droid Serif, georgia, sans-serif;
+  font-size: 75px;
+  position: relative;
+  z-index: 5;
+  margin: 0;
+  text-shadow: 1px 1px 15px white;
+
+
+}
+
+.subheader {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.presents {
+    position: relative;
+    padding-top:10px;
+  }
+
+img.presents {
+  height: 50px;
+  left: 0px;
+}
+
+.inner {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 1.3s linear;
+}
+
+.inner.faded {
+    opacity: 0;
+}
+
+a {
+  color: orange;
+}
+
+.text-glow {
+  text-shadow: 1px 1px 15px white;
+}
+
+
+/*the moon*/
+
+.moon {
+  display:block;
+  position: absolute;
+  left: 2em;
+  top: 2em;
+  height:200px;
+  width:200px;
+  border-radius:100%;
+  background :#ddd;
+  box-shadow:0 0 50px gold,0 0 150px gold, inset 0 20px 20px 40px whitesmoke, inset 30px 0 35px 50px ivory;
+  transition:2s;
+  z-index: 10;
+}
+
+body:hover:before {
+box-shadow:0 0 50px tomato,0 0 30px orange, inset 0 10px 10px 20px #ddd, inset 30px 0 35px 50px #ccc;
+  background:#aaa;
+  transition:1s;
+}
+html , document {
+background:#159;
+background-image:
+linear-gradient(-40deg,#222,transparent,#111),
+linear-gradient(40deg,#222,transparent,#111),
+linear-gradient(-40deg,#222,transparent,#111),
+linear-gradient(40deg,#222,transparent,#111)
+;
+  background-size:300%;
+  background-position:center;
+  transition:1s;
+}
+html:hover,document:hover {background-color:#123;transition:1s;}
+
+footer {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+
+}
+
+input {
+  border-radius: 3px;
+  border: none;
+  width: 310px;
+  padding: 15px;
+  background: white;
+  margin-right: 20px;
+  vertical-align:top;
+  font:black;
+  font-size:15px;
+}
+
+.block {
+  width:100px;
+  height:100px;
+  display:inline;
+}
+
+
+.cm-embedded-subscribe {
+  font-size:20px;
+}
+
+section {
+  margin-bottom: 75px;
+}
